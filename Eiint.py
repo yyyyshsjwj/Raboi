@@ -79,18 +79,14 @@ async def join_channel(event):
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhmd_id :
-        order = await event.reply('**- سورس يعمل بنجاح 🌵 .
-- AcCoUnT  {mention}
--  TM    {TM}**')
+        order = await event.reply('**the source is running ⚡️**')
         
         
 @eiint.on(events.NewMessage(outgoing=False, pattern='/TEST'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhmd_id :
-        order = await event.reply('**- سورس يعمل بنجاح 🌵 .
-- AcCoUnT  {mention}
--  TM    {TM}**')
+        order = await event.reply('**the source is running ⚡️**')
 
 
 @eiint.on(events.NewMessage(outgoing=False, pattern='.الاوامر'))
