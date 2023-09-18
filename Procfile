@@ -1,1 +1,1 @@
-worker: bash Eiint.py
+worker: bash Tepthon.py
